@@ -1,0 +1,23 @@
+/* General */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --red-color: #d03b40;
+  --beige-color: #ded6c0;
+  --white-color: #fff;
+  --gray--color: #241d1b;
+  --light-text-color: #f5f0ed;
+  --dark-text-color: #3c3c3b;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  /* font-weight: 400; */
+  /* font-weight: 800; */
+  font-size: 62.5%;
+}
