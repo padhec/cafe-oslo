@@ -49,6 +49,11 @@
   --dark-text-color: #3c3c3b;
 }
 
+a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
 body {
   background-color: var(--coffee-color);
 }
@@ -59,3 +64,69 @@ html {
   /* font-weight: 800; */
   /* font-size: 62.5%; */
 }
+
+ul {
+  list-style: none;
+}
+
+.line {
+  background-color: var(--white-color);
+  height: 0.5vh;
+  margin: 30px auto;
+  width: 20vw;
+}
+
+/* Menu hamburguesa */
+
+.burger-button {
+  background-color: var(--red-color);
+  border-radius: 2px;
+  color: var(--beige-color);
+  font-size: 20px;
+  height: 40px;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  top: 17px;
+  width: 40px;
+}
+
+/* Header */
+
+.header-container {
+  background-image: url(/img/Fondo1.jpg);
+  background-size: cover;
+  background-position: center center;
+  /* border: 1px solid red; */
+  min-height: 40vh;
+  padding: 15px;
+  width: 100%;
+}
+
+/* Barra de navehación */
+
+.header-nav {
+  display: none;
+}
+
+/* Main */
+
+/* Hero sección */
+
+.hero-container {
+  /* border: 1px solid red; */
+  color: var(--white-color);
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Cards eventos */
+
+/* Sección productos */
+
+/* Card productos */
+
+/* Contacto */
+
+/* Footer */
