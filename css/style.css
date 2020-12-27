@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src: url('/fonts/icomoon.eot?oei8ne');
-  src: url('/fonts/icomoon.eot?oei8ne#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?oei8ne') format('truetype'),
-    url('/fonts/icomoon.woff?oei8ne') format('woff'),
-    url('/fonts/icomoon.svg?oei8ne#icomoon') format('svg');
+  src: url('../fonts/icomoon.eot?oei8ne');
+  src: url('../fonts/icomoon.eot?oei8ne#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?oei8ne') format('truetype'),
+    url('../fonts/icomoon.woff?oei8ne') format('woff'),
+    url('../fonts/icomoon.svg?oei8ne#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -104,7 +104,7 @@ ul {
 /* Header */
 
 .header-container {
-  background-image: url(/img/Fondo1.jpg);
+  background-image: url(../img/Fondo1.jpg);
   background-size: cover;
   background-position: center center;
   /* border: 1px solid red; */
@@ -164,7 +164,7 @@ ul {
 /* Sección menú */
 
 .menu-container {
-  background-image: url(/img/Fondo2.jpg);
+  background-image: url(../img/Fondo2.jpg);
   background-position: center center;
   background-size: cover;
   /* border: 1px solid red; */
