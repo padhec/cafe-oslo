@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src: url('/fonts/icomoon.eot?hkxf8s');
-  src: url('/fonts/icomoon.eot?hkxf8s#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?hkxf8s') format('truetype'),
-    url('/fonts/icomoon.woff?hkxf8s') format('woff'),
-    url('/fonts/icomoon.svg?hkxf8s#icomoon') format('svg');
+  src: url('/fonts/icomoon.eot?oei8ne');
+  src: url('/fonts/icomoon.eot?oei8ne#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?oei8ne') format('truetype'),
+    url('/fonts/icomoon.woff?oei8ne') format('woff'),
+    url('/fonts/icomoon.svg?oei8ne#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,10 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map:before {
+  content: '\e94b';
 }
 
 .icon-menu:before {
@@ -58,6 +62,10 @@ body {
   background-color: var(--coffee-color);
 }
 
+figure {
+  width: 100%;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   /* font-weight: 400; */
@@ -71,9 +79,9 @@ ul {
 
 .line {
   background-color: var(--white-color);
-  height: 0.5vh;
+  height: 5px;
   margin: 30px auto;
-  width: 20vw;
+  max-width: 100px;
 }
 
 /* Menu hamburguesa */
@@ -81,12 +89,13 @@ ul {
 .burger-button {
   background-color: var(--red-color);
   border-radius: 2px;
+  box-shadow: 0 0 3px var(--dark-text-color);
   color: var(--beige-color);
   font-size: 20px;
   height: 40px;
   padding: 10px;
-  position: absolute;
-  right: 10px;
+  position: fixed;
+  right: 17px;
   text-align: center;
   top: 17px;
   width: 40px;
@@ -119,14 +128,129 @@ ul {
   color: var(--white-color);
   margin: 50px auto;
   text-align: center;
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 32px;
 }
 
 /* Cards eventos */
 
-/* Sección productos */
+.events-card-1 {
+  background-color: var(--red-color);
+  /* border: 1px solid red; */
+  color: var(--beige-color);
+  text-align: center;
+  padding: 30px;
+}
+
+.events-card-1 h2 {
+  margin-bottom: 20px;
+}
+
+.events-card-2 {
+  background-color: var(--beige-color);
+  /* border: 1px solid red; */
+  color: var(--red-color);
+  text-align: center;
+  padding: 30px;
+}
+
+.events-card-2 h2 {
+  margin-bottom: 20px;
+}
+
+/* Sección menú */
+
+.menu-container {
+  background-image: url(/img/Fondo2.jpg);
+  background-position: center center;
+  background-size: cover;
+  /* border: 1px solid red; */
+  color: white;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.menu-button {
+  border: 2px solid var(--white-color);
+  font-size: 13px;
+  margin: 30px auto;
+  padding: 10px 0;
+  width: 250px;
+}
 
 /* Card productos */
 
+.products-container {
+  background-color: var(--white-color);
+  width: 100%;
+}
+
+.cards {
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 30px;
+}
+
+.cards img {
+  width: 50%;
+}
+
+.cards-title {
+  margin: 20px 0;
+}
+
 /* Contacto */
 
+.contact-container {
+  width: 100%;
+}
+
+.contact-card-1 {
+  background-color: var(--beige-color);
+  /* border: 1px solid red; */
+  color: var(--red-color);
+  text-align: center;
+  padding: 30px;
+}
+
+.contact-card-2 {
+  background-color: var(--red-color);
+  /* border: 1px solid red; */
+  color: var(--beige-color);
+  text-align: center;
+  padding: 30px;
+}
+
+.contact-title {
+  margin-bottom: 20px;
+}
+
+.contact-description a {
+  color: var(--red-color);
+  font-weight: 800;
+}
+
 /* Footer */
+
+.footer-container {
+  background-color: var(--coffee-color);
+  color: var(--white-color);
+  font-size: 14px;
+  min-height: 80px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.map {
+  color: var(--beige-color);
+  font-size: 60px;
+}
+
+.contact-description {
+  margin-top: 20px;
+}
