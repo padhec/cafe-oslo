@@ -1,0 +1,43 @@
+.events-card-1 {
+  float: left;
+  width: 50%;
+}
+
+.events-card-2 {
+  float: right;
+  width: 50%;
+}
+
+.product1,
+.product3 {
+  float: left;
+  width: 50%;
+}
+
+.product2,
+.product4 {
+  float: left;
+  width: 50%;
+}
+
+.contact-card-1 {
+  float: left;
+  width: 50%;
+}
+
+.contact-card-2 {
+  float: right;
+  width: 50%;
+}
+
+.footer-date {
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+
+.footer-copyrights {
+  float: right;
+  text-align: right;
+  width: 50%;
+}

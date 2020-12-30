@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Café Oslo</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="screen and (min-width: 600px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="screen and (min-width: 800px)"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
@@ -17,7 +27,7 @@
       <!-- Menu hamburguesa -->
       <i class="icon-menu burger-button" id="burger-menu"></i>
       <figure class="header-logo">
-        <img src="./img/Logo.png" alt="Café Oslo Logo" />
+        <a href="#"><img src="./img/Logo.png" alt="Café Oslo Logo" /></a>
       </figure>
       <!-- Barra de navehación -->
       <nav class="header-nav active-nav">
@@ -29,6 +39,7 @@
           <li class="header-nav__item"><a href="#">CONTACTO</a></li>
         </ul>
       </nav>
+      <!-- Hero sección -->
       <section class="hero-container">
         <h2 class="hero-title">
           RECIÉN HECHO,<br />
@@ -45,7 +56,6 @@
     </header>
     <!-- Main -->
     <main class="main-container">
-      <!-- Hero sección -->
       <!-- Cards eventos -->
       <section class="events-container">
         <article class="events-card-1">
@@ -69,7 +79,7 @@
       </section>
       <!-- Sección menú -->
       <section class="menu-container">
-        <h2 class="menu-title">VE A DESAYUNAR</h2>
+        <h2 class="menu-title">VEN A DESAYUNAR</h2>
         <div class="line"></div>
         <p class="menu-description">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio aut
@@ -87,55 +97,64 @@
           <figure class="cards-figure">
             <img src="./img/Icono1.png" alt="Pan icono" />
           </figure>
-          <h2 class="cards-title">PAN RECIÉN HECHO</h2>
-          <p class="cards-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            cumque praesentium aspernatur porro nostrum molestias commodi aut
-            enim, consectetur, dolorum reiciendis corrupti debitis in quod, nemo
-            nobis! Omnis, saepe at.
-          </p>
+          <div class="cards-details">
+            <h2 class="cards-title">PAN RECIÉN HECHO</h2>
+            <p class="cards-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque praesentium aspernatur porro nostrum molestias commodi aut
+              enim, consectetur, dolorum reiciendis corrupti debitis in quod,
+              nemo nobis! Omnis, saepe at.
+            </p>
+          </div>
         </article>
         <article class="cards product2">
           <figure class="cards-figure">
             <img src="./img/Icono2.png" alt="Tartas icono" />
           </figure>
-          <h2 class="cards-title">TARTAS PARA CADA DÍA</h2>
-          <p class="cards-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            cumque praesentium aspernatur porro nostrum molestias commodi aut
-            enim, consectetur, dolorum reiciendis corrupti debitis in quod, nemo
-            nobis! Omnis, saepe at.
-          </p>
+          <div class="cards-details">
+            <h2 class="cards-title">TARTAS PARA CADA DÍA</h2>
+            <p class="cards-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque praesentium aspernatur porro nostrum molestias commodi aut
+              enim, consectetur, dolorum reiciendis corrupti debitis in quod,
+              nemo nobis! Omnis, saepe at.
+            </p>
+          </div>
         </article>
         <article class="cards product3">
           <figure class="cards-figure">
             <img src="./img/Icono3.png" alt="Dulces icono" />
           </figure>
-          <h2 class="cards-title">PRUEBA NUESTROS DULCES</h2>
-          <p class="cards-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            cumque praesentium aspernatur porro nostrum molestias commodi aut
-            enim, consectetur, dolorum reiciendis corrupti debitis in quod, nemo
-            nobis! Omnis, saepe at.
-          </p>
+          <div class="cards-details">
+            <h2 class="cards-title">PRUEBA NUESTROS DULCES</h2>
+            <p class="cards-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque praesentium aspernatur porro nostrum molestias commodi aut
+              enim, consectetur, dolorum reiciendis corrupti debitis in quod,
+              nemo nobis! Omnis, saepe at.
+            </p>
+          </div>
         </article>
         <article class="cards product4">
           <figure class="cards-figure">
             <img src="./img/Icono4.png" alt="Ingredientes icono" />
           </figure>
-          <h2 class="cards-title">INGREDIENTES ECOLÓGICOS</h2>
-          <p class="cards-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            cumque praesentium aspernatur porro nostrum molestias commodi aut
-            enim, consectetur, dolorum reiciendis corrupti debitis in quod, nemo
-            nobis! Omnis, saepe at.
-          </p>
+          <div class="cards-details">
+            <h2 class="cards-title">INGREDIENTES ECOLÓGICOS</h2>
+            <p class="cards-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque praesentium aspernatur porro nostrum molestias commodi aut
+              enim, consectetur, dolorum reiciendis corrupti debitis in quod,
+              nemo nobis! Omnis, saepe at.
+            </p>
+          </div>
         </article>
       </section>
       <!-- Contacto -->
       <section class="contact-container">
         <article class="contact-card-1">
           <h2 class="contact-title">CONTACTA CON NOSOTROS</h2>
+          <i class="icon-mail mail"></i>
           <p class="contact-description">
             Si quieres hacer una reserva, tienes alguna sugerencia o simplemente
             quieres saludar, escríbenos a

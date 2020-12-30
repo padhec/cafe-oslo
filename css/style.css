@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src: url('../fonts/icomoon.eot?oei8ne');
-  src: url('../fonts/icomoon.eot?oei8ne#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?oei8ne') format('truetype'),
-    url('../fonts/icomoon.woff?oei8ne') format('woff'),
-    url('../fonts/icomoon.svg?oei8ne#icomoon') format('svg');
+  src: url('../fonts/icomoon.eot?2crib');
+  src: url('../fonts/icomoon.eot?2crib#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?2crib') format('truetype'),
+    url('../fonts/icomoon.woff?2crib') format('woff'),
+    url('../fonts/icomoon.svg?2crib#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -28,12 +28,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-map:before {
-  content: '\e94b';
+.icon-mail:before {
+  content: '\e900';
 }
-
+.icon-map:before {
+  content: '\e901';
+}
 .icon-menu:before {
-  content: '\e9bd';
+  content: '\e902';
 }
 
 /* General */
@@ -108,7 +110,8 @@ ul {
   background-size: cover;
   background-position: center center;
   /* border: 1px solid red; */
-  min-height: 40vh;
+  margin: 0 auto;
+  max-width: 1000px;
   padding: 15px;
   width: 100%;
 }
@@ -127,6 +130,7 @@ ul {
   /* border: 1px solid red; */
   color: var(--white-color);
   margin: 50px auto;
+  max-width: 1000px;
   text-align: center;
   width: 100%;
 }
@@ -137,12 +141,22 @@ ul {
 
 /* Cards eventos */
 
+.events-container {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  max-width: 1000px;
+  overflow: hidden;
+  width: 100%;
+}
+
 .events-card-1 {
   background-color: var(--red-color);
   /* border: 1px solid red; */
   color: var(--beige-color);
+  min-height: 400px;
   text-align: center;
-  padding: 30px;
+  padding: 80px 30px;
+  width: 100%;
 }
 
 .events-card-1 h2 {
@@ -153,8 +167,10 @@ ul {
   background-color: var(--beige-color);
   /* border: 1px solid red; */
   color: var(--red-color);
+  min-height: 400px;
   text-align: center;
-  padding: 30px;
+  padding: 80px 30px;
+  width: 100%;
 }
 
 .events-card-2 h2 {
@@ -169,6 +185,8 @@ ul {
   background-size: cover;
   /* border: 1px solid red; */
   color: white;
+  margin: 0 auto;
+  max-width: 1000px;
   padding: 30px;
   text-align: center;
   width: 100%;
@@ -186,6 +204,9 @@ ul {
 
 .products-container {
   background-color: var(--white-color);
+  margin: 0 auto;
+  max-width: 1000px;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -193,6 +214,7 @@ ul {
   /* border: 1px solid red; */
   text-align: center;
   padding: 30px;
+  width: 100%;
 }
 
 .cards img {
@@ -206,6 +228,10 @@ ul {
 /* Contacto */
 
 .contact-container {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  max-width: 1000px;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -213,20 +239,38 @@ ul {
   background-color: var(--beige-color);
   /* border: 1px solid red; */
   color: var(--red-color);
+  min-height: 350px;
   text-align: center;
   padding: 30px;
+  width: 100%;
 }
 
 .contact-card-2 {
   background-color: var(--red-color);
   /* border: 1px solid red; */
   color: var(--beige-color);
+  min-height: 350px;
   text-align: center;
   padding: 30px;
+  width: 100%;
 }
 
 .contact-title {
   margin-bottom: 20px;
+}
+
+.map {
+  color: var(--beige-color);
+  font-size: 60px;
+}
+
+.mail {
+  color: var(--red-color);
+  font-size: 60px;
+}
+
+.contact-description {
+  margin-top: 20px;
 }
 
 .contact-description a {
@@ -238,19 +282,23 @@ ul {
 
 .footer-container {
   background-color: var(--coffee-color);
+  /* border: 1px solid red; */
   color: var(--white-color);
   font-size: 14px;
-  min-height: 80px;
+  margin: 0 auto;
+  max-width: 1000px;
+  overflow: hidden;
   padding: 20px;
   text-align: center;
   width: 100%;
 }
 
-.map {
-  color: var(--beige-color);
-  font-size: 60px;
+.footer-date {
+  /* border: 1px solid red; */
+  width: 100%;
 }
 
-.contact-description {
-  margin-top: 20px;
+.footer-copyrights {
+  /* border: 1px solid red; */
+  width: 100%;
 }

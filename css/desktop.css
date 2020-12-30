@@ -1,0 +1,78 @@
+.line {
+  margin: 50px auto;
+}
+
+/* Menu hamburguesa */
+
+.burger-button {
+  display: none;
+}
+
+/* Header */
+
+/* Barra de navehación */
+
+figure {
+  display: inline;
+}
+
+ul li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.header-nav {
+  /* border: 1px solid red; */
+  display: inline-block;
+}
+
+.hero-container {
+  padding: 100px;
+}
+
+/* Main */
+
+/* Hero sección */
+
+/* Cards eventos */
+
+.events-card-1,
+.events-card-2 {
+  padding: 90px;
+}
+
+/* Sección menú */
+
+.menu-container {
+  padding: 100px;
+}
+
+.menu-description {
+  margin: 50px;
+}
+
+/* Card productos */
+
+.cards-figure {
+  float: left;
+  width: 20%;
+}
+
+.cards-details {
+  /* border: 1px solid red; */
+  float: right;
+  width: 80%;
+}
+
+.cards {
+  text-align: left;
+}
+
+/* Contacto */
+
+.contact-card-1,
+.contact-card-2 {
+  padding: 80px;
+}
+
+/* Footer */
